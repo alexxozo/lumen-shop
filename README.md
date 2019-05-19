@@ -34,6 +34,12 @@ DELETE /product/{id}
 
 ### Frontend setup (frontend directory)
 You will need npm and nodejs installed on your system.
+
+** For some strange reason axios is not included as a dependenci so before running the app install manually:
+```
+npm install axios
+```
+
 1. Install all the packages needed with:
 ```
 npm install
