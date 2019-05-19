@@ -20,6 +20,18 @@ php artisan db:seed
 ```
 php -S localhost:8000 -t public
 ```
+
+You can use the following routes:
+```
+GET /products
+GET /product/{id}
+GET /products/{offset}/{limit}
+GET /product/{id}
+POST /product
+PUT /product/{id}
+DELETE /product/{id}
+```
+
 ### Frontend setup (frontend directory)
 You will need npm and nodejs installed on your system.
 1. Install all the packages needed with:
