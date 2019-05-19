@@ -4,6 +4,10 @@
 ### Backend setup (backend directory)
 You will need php and composer installed on your system.
 1. Create a file named .env in the main directory with your database credentials. It should be identical to .env.example file.
+2. Install all the things needed with:
+```
+composer install
+```
 2. Migrate the table for products to your database with:
 ```
 php artisan migrate
