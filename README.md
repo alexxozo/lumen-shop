@@ -26,7 +26,6 @@ You can use the following routes:
 GET /products
 GET /product/{id}
 GET /products/{offset}/{limit}
-GET /product/{id}
 POST /product
 PUT /product/{id}
 DELETE /product/{id}
